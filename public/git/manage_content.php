@@ -1,18 +1,4 @@
-<?php
-  // 1. create a database connection
-  $dbhost = "localhost";
-  $dbuser = "jays_cms";
-  $dbpass = "jayspassword123";
-  $dbname = "jays_garage";
-  $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
-  //Test if connection occurred.
-  if(mysqli_connect_errno()) {
-    die("Database connection failed: " .
-      mysqli_connect_error() .
-      " (AHHHHHHH MESSSSAGGGEEE" . mysqli_connect_errno() . ")"
-      );
-  }
-?>
+<?php require_once("../../includes/db_connection.php"); ?> 
 <?php require_once("../../includes/functions.php"); ?> 
 <?php
   // 2. Perform database query

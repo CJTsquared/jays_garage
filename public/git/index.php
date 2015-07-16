@@ -76,7 +76,8 @@
             <li> <a href="#Tires">Tires</a></li>
             <li> <a href="#Promotions">Promotions</a></li>
             <li> <a href="#promise">Our Promise!</a></li>
-            <li> <a href="#staff">Staff</a></li>        
+            <li> <a href="#staff">Staff</a></li>
+            <li> <a href="quote_submit_form.php">Request Service Quote</a></li>        
           </ul><!--END of ul for primary links in nav navbar-nav navbar-right-->
         </div><!-- End of the collapse command for the main links navbar-collapse -->
       </div><!-- End container-fluid that holds he primary navbar -->
@@ -128,7 +129,9 @@
             <li> <a href="#Tires">Tires</a></li>
             <li> <a href="#Promotions">Promotions</a></li>
             <li> <a href="#promise">Our Promise!</a></li>
-            <li> <a href="#staff">Staff</a></li>        
+            <li> <a href="#staff">Staff</a></li>
+            <li> <a href="quote_submit_form.php">Request Service Quote</a></li>        
+        
           </ul><!--END of ul for primary links in nav navbar-nav navbar-right-->
         </div><!-- End of the collapse command for the main links navbar-collapse -->
       </div><!-- End container-fluid that holds he primary navbar -->

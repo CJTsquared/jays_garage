@@ -12,7 +12,7 @@
 
   <!--  **Top Navbar**  -->
   <!-- Header Header -->
-  <header class="hidden-xs"id="headerheader">
+  <header class="hidden-xs"id="headerheader"> 
     <div class="container hidden-xs ten-column-width">         
       <h6> <strong>Dayton, Washington</strong> | <small>527 Cameron St.</small> | <em>(509) 123-4567</em>
       </h6>

@@ -32,12 +32,12 @@ a:hover { color: #1D3F7D; }
 	margin: 0; padding: 0;
 	background: #F0DF34;
 }
-#footer {
+/*#footer {
 	clear: both;
 	height: 2em; margin: 0; padding: 1em;
 	text-align: center;
 	background: #1D3F7D; color: #D4E6F4;
-}
+}*/
 
 /*Navigation */
 #navigation {

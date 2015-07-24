@@ -20,31 +20,32 @@
       <div id="navigation">
 
       </div>
+
       <div id="page">
-        <h2>Manage Forms</h2>
-        
+        <h2>Manage Forms</h2>        
         <ul class="list-unstyled">
-
-    <?php
-      // 3. use returnend data (if any)
-      while($subject = mysqli_fetch_assoc($result)) {
-        // Out put data from each row
-
-
-    ?>
-      <li>
-<span class="badge"><?php echo $subject["date"];?></span>      </li>
-      <li class="list-group-item"><?php echo $subject["first_name"] . " " . $subject["last_name"] . " " . $subject["car_make"] . " " . $subject["car_model"] . " " . $subject["car_year"]; ?>
-      <span class="badge"><li><?php echo "Comment: "; ?><?php echo $subject["situation_comment"];?></span>  
-      <li>  <br></br></li>
-    <?php
-      }
-    ?>
-    
-      </li>
-
-    </ul>
-
+          <?php
+            // 3. use returnend data (if any)
+            while($subject = mysqli_fetch_assoc($result)) {
+                    // Out put data from each row
+          ?>
+          <li>
+            <span class="badge"><?php echo $subject["date"];?></span>
+          </li>
+          <li class="list-group-item">
+            <?php echo $subject["first_name"] . " " . $subject["last_name"] . ".&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" . " Phone #: " . $subject["phone"] . "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Email: " . $subject["email"] . "<br></br> " . $subject["car_year"] . " " . $subject["car_make"] . " " . $subject["car_model"]; ?>            
+          </li>
+          <li>
+            <?php echo "Comment: "; ?><?php echo $subject["situation_comment"];?>
+          </li>    
+          <li>
+            <br></br>
+          </li>
+        <?php
+          }
+        ?>      
+          </li>
+        </ul>
       </div>
     </div>
 <?php

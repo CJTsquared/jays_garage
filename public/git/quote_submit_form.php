@@ -6,27 +6,28 @@
     <!--****Place All QUOTE form stuff in here****-->
 <div class="row">
       <div class="container col-sm-offset-3 col-sm-8 col-md-offset-3 col-md-8 col-lg-offset-3 col-lg-8">
-    <h2>Service Quote Information</h2>
-    <br></br>
+    <h2>Service Quote Request</h2><hr></hr><h3>Contact Information</h3>
+    
 
     <form action="create_service_quote_submission.php" method="post">
-      <strong id="cur">First Name:</strong>&nbsp&nbsp<input type="text" name="first_name" value="" />
-        
-        
-        &nbsp&nbsp <strong id="cur">Last Name:</strong>&nbsp&nbsp<input type="text" name="last_name" value="" /></h4>
-        
+      <strong>First Name:</strong> &nbsp&nbsp <input type="text" name="first_name" value="" />        
+        &nbsp&nbsp 
+      <strong >Last Name:</strong>&nbsp&nbsp<input type="text" name="last_name" value="" />    
+      <br></br>
     
-    <br></br>
-    
-      <strong id="cur">Car Make (i.e. Ford):</strong>&nbsp&nbsp<input type="text" name="car_make" value="" />
-        
-        
-        &nbsp&nbsp <strong id="cur">Car Model (i.e Focus):</strong>&nbsp&nbsp<input type="text" name="car_model" value="" /></h4>
-        
-    
-    <br></br>
+      <strong>Car Make</strong> (i.e. Ford):&nbsp&nbsp<input type="text" name="car_make" value="" />        
+        &nbsp&nbsp <strong>Car Model</strong> (i.e Focus):&nbsp&nbsp<input type="text" name="car_model" value="" />    
+      <br></br>
 
+      <strong>Phone #: </strong>&nbsp&nbsp<input type="text" name="phone" value="" />        
+        &nbsp&nbsp <strong>Email: </strong> :&nbsp&nbsp<input type="text" name="email" value="" />    
+      <br></br>
+      <br></br>
 
+      <strong>What type of service do you want a quote on?<br></br> Please leave a detailed description:<br></br> </strong>
+        <input type="text" class="large-comment-box" name="situation_comment" value="" />        
+      <br></br>
+      <br></br>
 
       <input type="submit" name="submit" value="Submit Serivce Request" />
     </form>

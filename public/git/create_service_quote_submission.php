@@ -15,6 +15,11 @@ if (isset($_POST['submit'])) {
 	
 	$first_name = mysql_prep($_POST["first_name"]);
 	$last_name = mysql_prep($_POST["last_name"]);
+	$car_make = mysql_prep($_POST["car_make"]);
+	$car_model = mysql_prep($_POST["car_model"]);
+	$phone = mysql_prep($_POST["phone"]);
+	$email = mysql_prep($_POST["email"]);
+	$situation_comment = mysql_prep($_POST["situation_comment"]);
 
 
 	
@@ -28,9 +33,9 @@ if (isset($_POST['submit'])) {
 	}
 	
 	$query  = "INSERT INTO quote_form (";
-	$query .= "  first_name, last_name";
+	$query .= "  first_name, last_name, car_make, car_model, phone, email, situation_comment";
 	$query .= ") VALUES (";
-	$query .= "  '{$first_name}', '{$last_name}'";
+	$query .= "  '{$first_name}', '{$last_name}', '{$car_make}', '{$car_model}', '{$phone}', '{$email}', '{$situation_comment}'";
 	$query .= ")";
 	$result = mysqli_query($connection, $query);
 

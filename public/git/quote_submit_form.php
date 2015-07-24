@@ -7,13 +7,25 @@
 <div class="row">
       <div class="container col-sm-offset-3 col-sm-8 col-md-offset-3 col-md-8 col-lg-offset-3 col-lg-8">
     <h2>Service Quote Information</h2>
+    <br></br>
+
     <form action="create_service_quote_submission.php" method="post">
-      <p>First name:
-        <input type="text" name="first_name" value="" />
-      </p>
-      <p>Last name:
-        <input type="text" name="last_name" value="" />
-      </p>
+      <strong id="cur">First Name:</strong>&nbsp&nbsp<input type="text" name="first_name" value="" />
+        
+        
+        &nbsp&nbsp <strong id="cur">Last Name:</strong>&nbsp&nbsp<input type="text" name="last_name" value="" /></h4>
+        
+    
+    <br></br>
+    
+      <strong id="cur">Car Make (i.e. Ford):</strong>&nbsp&nbsp<input type="text" name="car_make" value="" />
+        
+        
+        &nbsp&nbsp <strong id="cur">Car Model (i.e Focus):</strong>&nbsp&nbsp<input type="text" name="car_model" value="" /></h4>
+        
+    
+    <br></br>
+
 
 
       <input type="submit" name="submit" value="Submit Serivce Request" />

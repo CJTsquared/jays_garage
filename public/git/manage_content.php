@@ -1,3 +1,4 @@
+<?php include("../../includes/layouts/header.php"); ?>   
 <?php require_once("../../includes/db_connection.php"); ?> 
 <?php require_once("../../includes/functions.php"); ?> 
 <?php
@@ -5,7 +6,7 @@
   $query = "SELECT * ";
   $query .= "FROM quote_form ";
   //$query .= "WHERE q_id = 1 ";
-  $query .= "ORDER BY last_name ASC";
+  $query .= "ORDER BY date DESC";
 
 
   $result = mysqli_query($connection, $query);
@@ -22,25 +23,32 @@
       <div id="page">
         <h2>Manage Forms</h2>
         
-        <ul>
+        <ul class="list-unstyled">
+
     <?php
       // 3. use returnend data (if any)
       while($subject = mysqli_fetch_assoc($result)) {
         // Out put data from each row
-    ?>
-      <li><?php echo $subject["first_name"] . " " . $subject["last_name"] . " (" . $subject["q_id"] . ")" . $subject["car_make"] . " " . $subject["car_model"] . " " . $subject["car_year"]; ?></li>
-        
-    
 
+
+    ?>
+      <li>
+<span class="badge"><?php echo $subject["date"];?></span>      </li>
+      <li class="list-group-item"><?php echo $subject["first_name"] . " " . $subject["last_name"] . " " . $subject["car_make"] . " " . $subject["car_model"] . " " . $subject["car_year"]; ?>
+      <span class="badge"><li><?php echo "Comment: "; ?><?php echo $subject["situation_comment"];?></span>  
+      <li>  <br></br></li>
     <?php
       }
     ?>
+    
+      </li>
 
     </ul>
-      
+
       </div>
     </div>
 <?php
+
   // 4. Release returned data
   mysqli_free_result($result);
 

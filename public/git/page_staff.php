@@ -28,7 +28,7 @@
           <div class="mechanic col-xs-12 col-sm-6 col-md-6 col-lg-4">
             <div class="row">
               <div class="photo col-xs-12">         
-                <img class="img-thumbnail" src="../images/danielwigen.jpg" alt="Photo of Daniel">
+                <img class="img-thumbnail" src="../images/jay.jpg" alt="Photo of Daniel">
               </div><!--photo-->
               <div class="info col-xs-12">
                 <h3>Daniel Harrington</h3>

@@ -64,29 +64,186 @@
 </div>
   <!-- END carousel -->
 
+<div class="row" id="home-page-text">
+  <div class="container ten-column-width col-sm-offset-2 col-sm-10 col-md-offset-2 col-md-10 col-lg-offset-2 col-lg-10" id="promise">
+    <div class="container ten-column-width">
+      <div class="row">
+        <p class="col-xs-12 col-sm-6 col-md-6 col-lg-6">Our business is to keep your vehicle safe, reliable, economical. Quality repairs. Friendly service. Every job done right. Every customer served fairly and left with confidence in their vehicle’s operation. Your safety on the road.
+        </p>
+        <p class="col-xs-12 col-sm-6 col-md-6 col-lg-6">The best workmanship possible. Determining the root cause of your problem first, communicating that issue with you, then taking the appropriate steps to get your vehicle back in shape - all while saving you the most time. 
+        </p>
+      </div><!--row-->   
+    </div><!--end content container-->
+  </div>
+</div>
+
 <div class="row" id="first-text">
   <div class = "container col-sm-offset-3">
     <h1>Jay's Service Offerings. Check it out!</h1>
   </div>
 </div>
 
-  <!-- ** PAGES Start **-->
-
-  <!--Our Pormise page-->
-<div class="row">
-  <div class="container ten-column-width col-sm-offset-2 col-sm-10 col-md-offset-2 col-md-10 col-lg-offset-2 col-lg-10" id="mini_promise">
+<div class="row" id="home-page-text">
+  <div class="container ten-column-width col-sm-offset-2 col-sm-10 col-md-offset-2 col-md-10 col-lg-offset-2 col-lg-10" id="promise">
     <div class="container ten-column-width">
-      <h2>Our Promise (Mini Version)</h2> 
       <div class="row">
-        <p class="col-xs-12 col-sm-12 col-md-6 col-lg-6">Our business is to keep your vehicle safe, reliable, economical. Quality repairs. Friendly service. Every job done right. Every customer served fairly and left with confidence in their vehicle’s operation. Your safety on the road. Repair and service that meets or exceed the manufacturer’s standards. 
+        <p class="col-xs-12 col-sm-6 col-md-6 col-lg-6">Our business is to keep your vehicle safe, reliable, economical. Quality repairs. Friendly service. Every job done right. Every customer served fairly and left with confidence in their vehicle’s operation. Your safety on the road. Repair and service that meets or exceed the manufacturer’s standards. 
         </p>
-        <p class="col-xs-12 col-sm-12 col-md-6 col-lg-6">The best workmanship possible. Determining the root cause of your problem first, communicating that issue with you, then taking the appropriate steps to get your vehicle back in shape - all while saving you the most time and money. 
+        <p class="col-xs-12 col-sm-6 col-md-6 col-lg-6">The best workmanship possible. Determining the root cause of your problem first, communicating that issue with you, then taking the appropriate steps to get your vehicle back in shape - all while saving you the most time and money. 
         </p>
-      </div><!--row-->   
+      </div><!--row--> 
+
+
+      <div class="row">
+
+        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
+          <div class ="row">
+            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
+              <img class="cust-size-mini-service-icon clearfix" id="jays-garage-icon" src="../images/brand.jpg">
+            </a>
+            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="large-text">Oil Change</p>
+            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="small-text">
+              Here is this text. This text is too big. what happens if
+              there is a lot of text?
+            </p>
+            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="click-icon-div" href="#">
+              <img class="cust-size clearfix" id="click-for-more-icon" src="../images/brand.jpg">
+            </a>
+          </div> <!-- Inner row with, icon, title/descitiption, and click more icon. -->
+        </div> <!-- container with first item -->
+
+        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
+          <div class ="row">
+            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
+              <img class="cust-size-mini-service-icon clearfix" id="jays-garage-icon" src="../images/brand.jpg">
+            </a>
+            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="large-text">Oil Change</p>
+            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="small-text">
+              Here is this text. This text is too big. what happens if
+              there is a lot of text?
+            </p>
+            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="click-icon-div" href="#">
+              <img class="cust-size clearfix" id="click-for-more-icon" src="../images/brand.jpg">
+            </a>
+          </div> <!-- Inner row with, icon, title/descitiption, and click more icon. -->
+        </div> <!-- container with first item --> 
+
+      </div><!--  End of outter row for single serivce -->
+
+      <div class="row">
+
+        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
+          <div class ="row">
+            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
+              <img class="cust-size-mini-service-icon clearfix" id="jays-garage-icon" src="../images/brand.jpg">
+            </a>
+            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="large-text">Oil Change</p>
+            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="small-text">
+              Here is this text. This text is too big. what happens if
+              there is a lot of text?
+            </p>
+            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="click-icon-div" href="#">
+              <img class="cust-size clearfix" id="click-for-more-icon" src="../images/brand.jpg">
+            </a>
+          </div> <!-- Inner row with, icon, title/descitiption, and click more icon. -->
+        </div> <!-- container with first item -->
+
+        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
+          <div class ="row">
+            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
+              <img class="cust-size-mini-service-icon clearfix" id="jays-garage-icon" src="../images/brand.jpg">
+            </a>
+            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="large-text">Oil Change</p>
+            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="small-text">
+              Here is this text. This text is too big. what happens if
+              there is a lot of text?
+            </p>
+            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="click-icon-div" href="#">
+              <img class="cust-size clearfix" id="click-for-more-icon" src="../images/brand.jpg">
+            </a>
+          </div> <!-- Inner row with, icon, title/descitiption, and click more icon. -->
+        </div> <!-- container with first item --> 
+        
+      </div><!--  End of outter row for single serivce -->
+      <div class="row">
+
+        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
+          <div class ="row">
+            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
+              <img class="cust-size-mini-service-icon clearfix" id="jays-garage-icon" src="../images/brand.jpg">
+            </a>
+            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="large-text">Oil Change</p>
+            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="small-text">
+              Here is this text. This text is too big. what happens if
+              there is a lot of text?
+            </p>
+            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="click-icon-div" href="#">
+              <img class="cust-size clearfix" id="click-for-more-icon" src="../images/brand.jpg">
+            </a>
+          </div> <!-- Inner row with, icon, title/descitiption, and click more icon. -->
+        </div> <!-- container with first item -->
+
+        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
+          <div class ="row">
+            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
+              <img class="cust-size-mini-service-icon clearfix" id="jays-garage-icon" src="../images/brand.jpg">
+            </a>
+            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="large-text">Oil Change</p>
+            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="small-text">
+              Here is this text. This text is too big. what happens if
+              there is a lot of text?
+            </p>
+            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="click-icon-div" href="#">
+              <img class="cust-size clearfix" id="click-for-more-icon" src="../images/brand.jpg">
+            </a>
+          </div> <!-- Inner row with, icon, title/descitiption, and click more icon. -->
+        </div> <!-- container with first item --> 
+        
+      </div><!--  End of outter row for single serivce -->
+
+      <div class="row">
+
+        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
+          <div class ="row">
+            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
+              <img class="cust-size-mini-service-icon clearfix" id="jays-garage-icon" src="../images/brand.jpg">
+            </a>
+            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="large-text">Oil Change</p>
+            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="small-text">
+              Here is this text. This text is too big. what hap if
+              there is a lot of text?
+            </p>
+            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="click-icon-div" href="#">
+              <img class="cust-size clearfix" id="click-for-more-icon" src="../images/brand.jpg">
+            </a>
+          </div> <!-- Inner row with, icon, title/descitiption, and click more icon. -->
+        </div> <!-- container with first item -->
+
+        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
+          <div class ="row">
+            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
+              <img class="cust-size-mini-service-icon clearfix" id="jays-garage-icon" src="../images/brand.jpg">
+            </a>
+            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="large-text">Oil Change</p>
+            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="small-text">
+              Here is this text. This text is too big. what happens if
+              there is a lot of text?
+            </p>
+            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="click-icon-div" href="#">
+              <img class="cust-size clearfix" id="click-for-more-icon" src="../images/brand.jpg">
+            </a>
+          </div> <!-- Inner row with, icon, title/descitiption, and click more icon. -->
+        </div> <!-- container with first item --> 
+        
+      </div><!--  End of outter row for single serivce -->
+
     </div><!--end content container-->
   </div>
 </div>
-  <!-- END Our promise page -->
+
+  <!-- ** PAGES Start **-->
+
+
 
   <!-- ***** Responsive Test row ***-->
 <div class="row">

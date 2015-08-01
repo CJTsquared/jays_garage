@@ -8,9 +8,9 @@
 
 <!--****Place All content in here****-->
 
-<div class="row" id="first-text">
+<div class="row">
   <div class = "container col-sm-offset-3">
-    <h1>Dayton's Auto Service Experts</h1>
+    <h2 style="margin-top: 10px;">Dayton's Auto Service Experts</h2>
   </div>
 </div>
 
@@ -93,149 +93,56 @@
         </p>
       </div><!--row--> 
 
-
+      <!-- One Row of two services -->
       <div class="row">
-
-        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
-          <div class ="row">
-            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
-              <img class="cust-size-mini-service-icon clearfix" id="jays-garage-icon" src="../images/brand.jpg">
-            </a>
-            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="large-text">Oil Change</p>
-            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="small-text">
-              Here is this text. This text is too big. what happens if
-              there is a lot of text?
-            </p>
-            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="click-icon-div" href="#">
-              <img class="cust-size clearfix" id="click-for-more-icon" src="../images/brand.jpg">
-            </a>
+        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class ="row"><!-- Inner row with, icon, title/descitiption, and click more icon. -->
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+              <img class="service-icon align-left" src="../images/car10.svg">
+              <div style="clear: both;">
+              </div>      
+              <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 click-for-more-div align-left">
+                <button class="click-for-more-button-fat align-left"type="button">
+                  <div class="small-text">Learn More!
+                  </div>
+                </button> 
+              </div>
+            </div>
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 service-text">
+              <div class="service-title"><strong>Oil Change</strong>
+              </div>                   
+              <div class="service-description"> &nbsp&nbsp&nbsp<strong>This</strong> ia a service description example.
+                I want to make sure i get the length, size, color, and pizza sauce right.
+                Perpahs the lengh will be this long. There is a lot more text, here it is. Even a bit more.
+              </div>                             
+            </div>
           </div> <!-- Inner row with, icon, title/descitiption, and click more icon. -->
         </div> <!-- container with first item -->
-
-        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
-          <div class ="row">
-            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
-              <img class="cust-size-mini-service-icon clearfix" id="jays-garage-icon" src="../images/brand.jpg">
-            </a>
-            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="large-text">Oil Change</p>
-            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="small-text">
-              Here is this text. This text is too big. what happens if
-              there is a lot of text?
-            </p>
-            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="click-icon-div" href="#">
-              <img class="cust-size clearfix" id="click-for-more-icon" src="../images/brand.jpg">
-            </a>
-          </div> <!-- Inner row with, icon, title/descitiption, and click more icon. -->
-        </div> <!-- container with first item --> 
-
-      </div><!--  End of outter row for single serivce -->
-
-      <div class="row">
-
-        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
-          <div class ="row">
-            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
-              <img class="cust-size-mini-service-icon clearfix" id="jays-garage-icon" src="../images/brand.jpg">
-            </a>
-            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="large-text">Oil Change</p>
-            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="small-text">
-              Here is this text. This text is too big. what happens if
-              there is a lot of text?
-            </p>
-            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="click-icon-div" href="#">
-              <img class="cust-size clearfix" id="click-for-more-icon" src="../images/brand.jpg">
-            </a>
+        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class ="row"><!-- Inner row with, icon, title/descitiption, and click more icon. -->
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+              <img class="service-icon align-left" src="../images/car10.svg">
+              <div style="clear: both;">
+              </div>      
+              <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 click-for-more-div align-left">
+                <button class="click-for-more-button-fat align-left"type="button">
+                  <div class="small-text">Learn More!
+                  </div>
+                </button> 
+              </div>
+            </div>
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 service-text">
+              <div class="service-title"><strong>Oil Change</strong>
+              </div>                   
+              <div class="service-description"> &nbsp&nbsp&nbsp<strong>This</strong> ia a service description example.
+                I want to make sure i get the length, size, color, and pizza sauce right.
+                Perpahs the lengh will be this long. There is a lot more text, here it is. Even a bit more.
+              </div>                             
+            </div>
           </div> <!-- Inner row with, icon, title/descitiption, and click more icon. -->
         </div> <!-- container with first item -->
-
-        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
-          <div class ="row">
-            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
-              <img class="cust-size-mini-service-icon clearfix" id="jays-garage-icon" src="../images/brand.jpg">
-            </a>
-            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="large-text">Oil Change</p>
-            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="small-text">
-              Here is this text. This text is too big. what happens if
-              there is a lot of text?
-            </p>
-            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="click-icon-div" href="#">
-              <img class="cust-size clearfix" id="click-for-more-icon" src="../images/brand.jpg">
-            </a>
-          </div> <!-- Inner row with, icon, title/descitiption, and click more icon. -->
-        </div> <!-- container with first item --> 
-        
-      </div><!--  End of outter row for single serivce -->
-      <div class="row">
-
-        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
-          <div class ="row">
-            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
-              <img class="cust-size-mini-service-icon clearfix" id="jays-garage-icon" src="../images/brand.jpg">
-            </a>
-            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="large-text">Oil Change</p>
-            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="small-text">
-              Here is this text. This text is too big. what happens if
-              there is a lot of text?
-            </p>
-            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="click-icon-div" href="#">
-              <img class="cust-size clearfix" id="click-for-more-icon" src="../images/brand.jpg">
-            </a>
-          </div> <!-- Inner row with, icon, title/descitiption, and click more icon. -->
-        </div> <!-- container with first item -->
-
-        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
-          <div class ="row">
-            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
-              <img class="cust-size-mini-service-icon clearfix" id="jays-garage-icon" src="../images/brand.jpg">
-            </a>
-            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="large-text">Oil Change</p>
-            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="small-text">
-              Here is this text. This text is too big. what happens if
-              there is a lot of text?
-            </p>
-            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="click-icon-div" href="#">
-              <img class="cust-size clearfix" id="click-for-more-icon" src="../images/brand.jpg">
-            </a>
-          </div> <!-- Inner row with, icon, title/descitiption, and click more icon. -->
-        </div> <!-- container with first item --> 
-        
-      </div><!--  End of outter row for single serivce -->
-
-      <div class="row">
-
-        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
-          <div class ="row">
-            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
-              <img class="cust-size-mini-service-icon clearfix" id="jays-garage-icon" src="../images/brand.jpg">
-            </a>
-            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="large-text">Oil Change</p>
-            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="small-text">
-              Here is this text. This text is too big. what hap if
-              there is a lot of text?
-            </p>
-            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="click-icon-div" href="#">
-              <img class="cust-size clearfix" id="click-for-more-icon" src="../images/brand.jpg">
-            </a>
-          </div> <!-- Inner row with, icon, title/descitiption, and click more icon. -->
-        </div> <!-- container with first item -->
-
-        <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
-          <div class ="row">
-            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
-              <img class="cust-size-mini-service-icon clearfix" id="jays-garage-icon" src="../images/brand.jpg">
-            </a>
-            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="large-text">Oil Change</p>
-            <p class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="small-text">
-              Here is this text. This text is too big. what happens if
-              there is a lot of text?
-            </p>
-            <a class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="click-icon-div" href="#">
-              <img class="cust-size clearfix" id="click-for-more-icon" src="../images/brand.jpg">
-            </a>
-          </div> <!-- Inner row with, icon, title/descitiption, and click more icon. -->
-        </div> <!-- container with first item --> 
-        
-      </div><!--  End of outter row for single serivce -->
+      </div>
+      <!-- END One Row of two services -->
 
     </div><!--end content container-->
   </div>
@@ -249,7 +156,7 @@
 <div class="row">
   <div class="container ten-column-width col-sm-offset-2 col-sm-10 col-md-offset-2 col-md-10 col-lg-offset-2 col-lg-10" id="promise">
     <div class="container ten-column-width">
-      <h2>Responsive Test Row</h2> 
+      <h2>Container Test Row</h2> 
       <div class="row">
         <p class="col-xs-12 col-sm-6 col-md-4 col-lg-3"> This is a responsive rest row. This is a responsive rest row.This is a responsive rest row.This is a responsive rest row.This is a responsive rest row.This is a responsive rest row.
         </p>
@@ -263,7 +170,29 @@
     </div><!--end content container-->
   </div>
 </div>
+
   <!-- ***** END Responsive Test row ***-->
+    <!-- ***** Responsive Test row ***-->
+<div class="row">
+  <div class="container-fluid ten-column-width col-sm-offset-2 col-sm-10 col-md-offset-2 col-md-10 col-lg-offset-2 col-lg-10" id="promise">
+    <div class="container-fluid ten-column-width">
+      <h2>Container fluid Test Row</h2> 
+      <div class="row">
+        <p class="col-xs-12 col-sm-6 col-md-4 col-lg-3"> This is a responsive rest row. This is a responsive rest row.This is a responsive rest row.This is a responsive rest row.This is a responsive rest row.This is a responsive rest row.
+        </p>
+        <p class="col-xs-12 col-sm-6 col-md-4 col-lg-3">This is a responsive rest row. This is a responsive rest row.This is a responsive rest row.This is a responsive rest row.This is a responsive rest row.This is a responsive rest row.
+        </p>
+        <p class="col-xs-12 col-sm-6 col-md-4 col-lg-3"> This is a responsive rest row. This is a responsive rest row.This is a responsive rest row.This is a responsive rest row.This is a responsive rest row.This is a responsive rest row.
+        </p>
+        <p class="col-xs-12 col-sm-6 hidden-md col-lg-3">This is a responsive rest row. This is a responsive rest row.This is a responsive rest row.This is a responsive rest row.This is a responsive rest row.This is a responsive rest row.
+        </p>
+      </div><!--row-->   
+    </div><!--end content container-->
+  </div>
+</div>
+
+  <!-- ***** END Responsive Test row ***-->
+
 
   <!--testimonials page-->
 <div class="row">

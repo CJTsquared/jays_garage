@@ -15,7 +15,7 @@
           <div class="mechanic col-xs-12 col-sm-6 col-md-6 col-lg-4">
             <div class="row">
               <div class="photo col-xs-12">         
-                <img class="img-thumbnail" src="../images/jay.jpg" alt="Photo of Jay">
+                <img class="img-thumbnail" src="../images/.jpg" alt="Photo of Jay">
               </div><!--photo-->
               <div class="info col-xs-12">
                 <h3>Jay Ball</h3>
